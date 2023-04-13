@@ -1,0 +1,88 @@
+$color_1: white;
+$color_2: azure;
+$color_3:cornflowerblue;
+$background-color_1: black;
+$background-color_2: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+ body {
+   font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+h1 {
+   background-color:$background-color_1 ;
+   color:$color_1;
+   font-size: 2rem;
+   text-align: center;
+}
+
+h2 {
+   background-color:$background-color_2 ;
+   color: $color_1;
+   font-size: 2rem;
+   text-align: center;
+}
+
+@mixin titulo {
+   font-size: 1rem;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+h3 {
+   color:$color_1 ;
+   @include titulo;
+}
+
+h4 {
+   color:$color_1 ;
+   background-color:$color_3;
+}
+
+
+
+footer {
+   background-color:$background-color_1;
+   font-size: small;
+
+   h3 {
+      color:$color_1;
+   }
+
+   p {
+      color:$color_1 ;
+   }
+}
+
+.mapa {
+   display: flex;
+   justify-content: center;
+}
+
+.boton {
+   color:color_2 ;
+   background-color:$background-color_1;
+   transition: 2s;
+
+}
+.boton2 {
+   color:$color_1 ;
+   background-color:$color_3;
+   transition: 2s;
+
+}
+
+
+
+.margen {
+   margin: 13px;
+   ;
+} 
+body {
+   overflow-x: hidden;
+ }

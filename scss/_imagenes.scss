@@ -1,0 +1,22 @@
+.imagenContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		margin: 20px;
+		width: 300px;
+		height: 220px;
+		object-fit: cover;
+		transition: transform 0.2s ease-in-out;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+.imagenContainer img {
+	max-width: 100%;
+	height: auto;
+}

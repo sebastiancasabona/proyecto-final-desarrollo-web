@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  background-color: aqua;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+footer {
+  background-color: black;
+  font-size: small;
+}
+footer h3 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  color: color_2;
+  background-color: black;
+  transition: 2s;
+}
+
+.boton2 {
+  color: white;
+  background-color: cornflowerblue;
+  transition: 2s;
+}
+
+.margen {
+  margin: 13px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.botonWhatsapp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.bordeFooter {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.bordeFooter ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social a img {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.imagenContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagenContainer img {
+  margin: 20px;
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+.imagenContainer img:hover {
+  transform: scale(1.1);
+}
+
+.imagenContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+  #formulario {
+    width: 100%;
+  }
+  #formulario {
+    margin-top: 20px;
+  }
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #formulario {
+    width: 50%;
+    float: right;
+  }
+  iframe {
+    width: 50%;
+    height: 355px;
+    float: left;
+  }
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #grilla {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .border {
+    border: 4px solid black;
+    background-color: blue;
+  }
+}
+.video-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-container {
+  flex: 0 0 calc(45% - 10px);
+  margin-bottom: 20px;
+  max-width: calc(45% - 10px);
+}
+.video-container:last-child {
+  margin-right: 0;
+}
+.video-container iframe {
+  max-width: 100%;
+  height: 65%;
+}
+
+@media (max-width: 768px) {
+  .video-wrapper {
+    flex-direction: column;
+  }
+  .video-container {
+    flex: 0 0 100%;
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
